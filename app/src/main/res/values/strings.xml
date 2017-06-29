@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MinerSonoro</string>
+    <string name="but_name">Aceptar</string>
+    <string name="volver">Volver</string>
+    <string name="salir">Salir</string>
+
+    <string name="help">Help</string>
+</resources>

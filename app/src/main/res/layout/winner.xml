@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginRight="74dp"
+        android:src="@mipmap/winner"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp" />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:text="Gracias soldado, lo has conseguido"
+        android:id="@+id/textView"
+        android:layout_marginBottom="57dp"
+        android:layout_above="@+id/btn2"
+        android:layout_alignStart="@+id/icon" />
+
+    <Button
+        android:text="@string/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:id="@+id/btn2"
+        android:layout_weight="0.14"
+        android:layout_marginBottom="76dp"
+        android:layout_marginLeft="150dp"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp" />
+
+    <Button
+        android:text="@string/salir"
+        android:layout_height="34dp"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/out"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
